@@ -2,14 +2,14 @@
 
 namespace elementary\config\Test\Loaders;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use UnexpectedValueException;
 use elementary\config\Phpconfig\Phpconfig;
 
 /**
  * @coversDefaultClass \elementary\config\Phpconfig\Phpconfig
  */
-class PhpconfigTest extends PHPUnit_Framework_TestCase
+class PhpconfigTest extends TestCase
 {
     /**
      * @test
